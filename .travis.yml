@@ -6,4 +6,4 @@ before_install:
   - docker build -t devImage -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true devImage npm run test
+  - docker run -e CI=true devimage npm run test
